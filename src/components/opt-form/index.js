@@ -6,11 +6,7 @@ export default function OptForm({ children, ...restProps }) {
 }
 
 OptForm.Input = function OptFormInput({ ...restProps }) {
-  return (
-    <label>
-      <Input {...restProps} />
-    </label>
-  );
+  return <Input {...restProps} />;
 };
 
 OptForm.Button = function OptFormButton({ children, ...restProps }) {
