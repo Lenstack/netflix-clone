@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import { Link as ReachRouterLink } from "react-router-dom";
 
 export const Background = styled.div`
   display: flex;
@@ -35,7 +36,7 @@ export const Logo = styled.img`
   }
 `;
 
-export const ButtonLink = styled.button`
+export const ButtonLink = styled(ReachRouterLink)`
   display: block;
   background-color: #e50914;
   width: 84px;
